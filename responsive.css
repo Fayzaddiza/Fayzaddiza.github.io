@@ -1,0 +1,35 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+   display: flex;
+  }
+
+  .container {
+    margin: 20px;
+    padding: 180px 0 100px 0;
+    background-image: url('assets/main-logo.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  .about {
+    height: auto;
+  }
+
+  body{
+    height:auto;
+  }
+
+  .terms {
+    height: auto;
+  }
+
+  .footer {
+    height: 0%;
+  }
+}
